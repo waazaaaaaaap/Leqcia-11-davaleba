@@ -1,0 +1,600 @@
+.section-start-title{
+    color: #5863E3;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.section-start-text{
+    color: #000;
+    font-family: Helvetica;
+    font-size: 49px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 112px;
+    width: 371px;
+    margin-top: 7px;
+    margin-bottom: 57px;
+    
+}
+header{
+    margin-left: 144px;
+    margin-top: 57px;
+}
+
+/* CONTACT FIELD */
+
+
+.contact-field{
+    width: 1146px;
+    display: flex;
+}
+
+.input-description{
+    margin-left: 144px;
+}
+
+textarea{
+    width: 756px;
+    height: 298px;
+    flex-shrink: 0;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+} 
+.infofield{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+    
+}
+.subject{
+    width: 370px;
+    height: 59px;
+    flex-shrink: 0;
+    border: 2px solid #ccc;
+    background: #F8F8F8;
+    margin-left: 20px;
+    padding-left: 19px;
+}
+.sendbutton{
+    width: 370px;
+    height: 59px;
+    flex-shrink: 0;
+    color: #FBFBFF;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: #5968F4;
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.sendbutton:hover{
+    background-color: #3456ff;
+}
+
+.personalinformation{
+    width: 370px;
+    height: 59px;
+    flex-shrink: 0;
+    border: 2px solid #ccc;
+    background: #F8F8F8;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-left: 19px;
+}
+.ourinfo{
+    display: flex;
+    width: 987px;
+    margin-left: 210px;
+    margin-top: 51px;
+    height: 72px;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.ouremail {
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%; 
+    background-color: #5968F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ourphone{
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%; 
+    background-color: #5968F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ourlocation{
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%; 
+    background-color: #5968F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* LISTS STYLING */
+.lists{
+    display: flex;
+    width: 987px;
+    margin-left: 210px;
+    height: 72px;
+    align-items: center;
+}
+
+/* email listing start */ 
+.email-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 52px;
+    margin-right: 155px;
+    padding-bottom: 8px;
+}
+
+.emailtext{
+    color: #4E4D54;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 16px;
+}
+
+.email{
+    color: #99999A;
+    font-family: Helvetica;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 8px;
+    transition: 0.5s;
+}
+.email:hover{
+    color: #3456ff;
+}
+/* email listing end */
+
+
+/* phone num listing start */
+.phone-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-right: 180px;
+}
+.phonetitle{
+    color: #4E4D54;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 16px;
+}
+
+.phonenum{
+    color: #99999A;
+    font-family: Helvetica;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 8px;
+    transition: 0.5s;
+}
+.phonenum:hover{
+    color: rgb(4, 179, 4);
+}
+
+
+/* location listing start */ 
+.location-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.locationtitle{
+    color: #4E4D54;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 16px;
+}
+
+.location{
+    color: #99999A;
+    font-family: Helvetica;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 8px;
+    transition: 0.5s;
+}
+.location:hover{
+    color: teal;
+}
+/* Location Listing End */ 
+
+
+/* LATEST PHOTOS SECTION */
+
+
+.latest-photos{
+    margin-left: 144px;
+    margin-top: 74px;
+ }
+
+.latest-photos-title{
+    color: #5863E3;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.latest-photos-description{
+    color: #000;
+    font-family: Helvetica;
+    font-size: 49px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 112px;
+    width: 548px;
+    margin-top: 7px;
+    margin-bottom: 57px;
+}
+.photos{
+    width: 1318px;
+    height: 373;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 61px;
+}
+.photostyling{
+    display: flex;
+    width: 373px;
+    height: 373px;
+    flex-shrink: 0;
+}
+
+/* LATEST PHOTOS SECTION END */
+
+/* FOOTER START */
+
+footer{
+    background-color: #000;
+    width: auto;
+    height: 372px;
+    margin-top: 39px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.hotelsadvert{
+    height: 130px;
+    width: 290px;
+    
+}
+.title1{
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.description1{
+    color: #99999A;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 23px;
+}
+.LOGOS{
+    margin-right: 4px;
+    margin-top: 27px;
+}
+
+
+
+
+
+.useful-links{
+    height: 130px;
+    width: 108px;
+    display: flex;
+    flex-direction: column;
+}
+.title2{
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 32px;
+}
+.helpful-list{
+    color: #5863E3;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline;
+    cursor: pointer;
+}
+.useful-links p{
+    padding-bottom: 9px;
+}
+
+
+
+
+.privacy-field{
+    height: 130px;
+    width: 108px;
+    display: flex;
+    flex-direction: column;
+}
+
+.helpful-list{
+    color: #5863E3;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline;
+    cursor: pointer;
+}
+.privacy-field p{
+    padding-bottom: 9px;
+}
+
+
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icon{
+    width: 21px;
+    height: 15px;
+    flex-shrink: 0;
+}
+.contact-item{
+    padding-bottom: 19px;
+}
+
+.contact-link-mail{
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: 0.5s;
+}
+.contact-link-mail:hover{
+    color: #3456ff;
+}
+
+.contact-link-phone{
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: 0.5s;
+}
+.contact-link-phone:hover{
+    color: rgb(4, 179, 4);
+}
+.contact-link-location{
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: 0.5s;
+}
+.contact-link-location:hover{
+    color: teal;
+}
+
+/* Media Queries */
+
+/* Devices with a maximum width of 1200px */
+@media (max-width: 1200px) {
+    header, .input-description, .ourinfo, .lists, .latest-photos {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .section-start-text, .latest-photos-description {
+        font-size: 36px;
+        width: 100%;
+        height: auto;
+    }
+
+    .contact-field, .ourinfo, .lists, .photos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subject, .sendbutton, .personalinformation, textarea {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .ourinfo, .lists, .latest-photos {
+        width: 100%;
+    }
+
+    .photos {
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: center;
+    }
+}
+
+/* Devices with a maximum width of 992px */
+@media (max-width: 992px) {
+    .section-start-title, .latest-photos-title {
+        font-size: 16px;
+    }
+
+    .section-start-text, .latest-photos-description {
+        font-size: 30px;
+        width: 100%;
+        height: auto;
+    }
+
+    header {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .contact-field, .ourinfo, .lists, .photos {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .subject, .sendbutton, .personalinformation, textarea {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .ourinfo, .lists, .latest-photos {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .photos {
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: center;
+    }
+}
+
+/* Devices with a maximum width of 768px */
+@media (max-width: 768px) {
+    .section-start-title, .latest-photos-title {
+        font-size: 14px;
+    }
+
+    .section-start-text, .latest-photos-description {
+        font-size: 24px;
+        width: 100%;
+        height: auto;
+    }
+
+    header, .input-description, .ourinfo, .lists, .latest-photos {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .contact-field, .ourinfo, .lists, .photos {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .subject, .sendbutton, .personalinformation, textarea {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .ourinfo, .lists, .latest-photos {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .photos {
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: center;
+    }
+}
+
+/* Devices with a maximum width of 576px */
+@media (max-width: 576px) {
+    .section-start-title, .latest-photos-title {
+        font-size: 12px;
+    }
+
+    .section-start-text, .latest-photos-description {
+        font-size: 18px;
+        width: 100%;
+        height: auto;
+    }
+
+    header, .input-description, .ourinfo, .lists, .latest-photos {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .contact-field, .ourinfo, .lists, .photos {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .subject, .sendbutton, .personalinformation, textarea {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .ourinfo, .lists, .latest-photos {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .photos {
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: center;
+    }
+}
+
